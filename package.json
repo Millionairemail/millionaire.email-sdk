@@ -1,0 +1,21 @@
+{
+  "name": "millionaire.email-sdk",
+  "version": "0.1.0",
+  "description": "Official SDK for integrating and verifying Millionaire.email identities",
+  "main": "src/index.js",
+  "keywords": [
+    "sdk",
+    "email",
+    "identity",
+    "s-mime",
+    "pgp",
+    "millionaire.email",
+    "ens"
+  ],
+  "author": "Millionaire.email Team",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node test/test.js"
+  }
+}
