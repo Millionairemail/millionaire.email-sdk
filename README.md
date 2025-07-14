@@ -1,21 +1,19 @@
-# millionaire.email-sdk
+# 💼 Millionaire.email SDK
 
-> **Official SDK for integrating and verifying [Millionaire.email](https://www.millionaire.email) identities**
+The official SDK for secure identity, signature, and verification tools for [Millionaire.email](https://www.millionaire.email).
 
----
+## ✨ Features
 
-## 💡 What is this?
+- Sign email content
+- Verify digital identity
+- Built for S/MIME, PGP, and future ENS login integrations
 
-The `millionaire.email-sdk` is a lightweight JavaScript/Node.js library designed to help developers:
+## 📦 Install
 
-- ✅ Verify whether an email is a valid Millionaire.email identity  
-- 🔐 Check digital signature support (S/MIME, PGP)  
-- 🌐 (Coming soon) Map ENS identities to email addresses  
-- 🛡️ Build secure integrations with Millionaire.email services
+(coming soon via npm)
 
----
+## 🛠 Usage
 
-## 🚀 Installation
-
-```bash
-npm install millionaire.email-sdk
+```js
+const { signEmail } = require('millionaire.email-sdk');
+console.log(signEmail('hello'));
