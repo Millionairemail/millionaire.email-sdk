@@ -1,4 +1,11 @@
-const { verifyEmailIdentity } = require('../src/index');
+const { signEmail } = require('../src/index.js');
 
-const result = verifyEmailIdentity('vip@millionaire.email');
-console.log(result);
+function testSignEmail() {
+  const result = signEmail('hello');
+  if (result !== 'Signed: hello') {
+    throw new Error(`Expected 'Signed: hello' but got '${result}'`);
+  }
+  console.log('✅ signEmail test passed');
+}
+
+testSignEmail();
